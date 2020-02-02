@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Cape Guide</string>
+    <string name="details_activity">Details</string>
+    <string name="activity_fragment_name">Activities</string>
+<string name="lodging_fragment_name">Lodging</string>
+<string name="entertainment_fragment_name">Entertainment</string>
+<string name="food_fragment_name">Food</string>
+<string name="sights_fragment_name">Sights</string>
+    <string name="image_description">cape_image</string>
+    <string name="image_background_description">Background for opaque image</string>
+
+</resources>

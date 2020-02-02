@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="cardPreventOverlap"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardPreventCornerOverlap="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_margin="@dimen/margin_normal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+
+        <ImageView
+            android:id="@+id/activity_image"
+            android:layout_width="@dimen/zero_width"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_normal">
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimaryText"
+                tools:text="name" />
+
+            <TextView
+                android:id="@+id/distance_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_weight="2"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:textAppearance="?android/textAppearanceSmall"
+                android:textColor="@color/colorSecondaryText"
+                tools:text="distance" />
+
+            <TextView
+                android:id="@+id/activities_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:textAppearance="?android/textAppearanceSmall"
+                android:textColor="@color/colorSecondaryText"
+                tools:text="activities" />
+
+            <TextView
+                android:id="@+id/description_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:textAppearance="?android/textAppearanceSmall"
+                android:textColor="@color/colorSecondaryText"
+                tools:text="description" />
+
+            <TextView
+                android:id="@+id/location_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:textAppearance="?android/textAppearanceSmall"
+                android:textColor="@color/colorSecondaryText"
+                tools:text="location" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

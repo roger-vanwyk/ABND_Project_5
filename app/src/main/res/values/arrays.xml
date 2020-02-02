@@ -1,0 +1,100 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+     
+    <string-array name="list_activity_name">
+    <item>V&amp;A Waterfront</item>
+   <item>Lion\'s Head</item>
+    <item>Table Mountain</item>
+   <item>Cape Point</item>
+    <item>Two Oceans Aquarium</item>
+ <item>Winery</item>
+   <item>Twelve Apostles</item>
+    <item>One&amp;Only</item>
+   <item>The Golden Dish</item>
+    </string-array>
+
+<string-array name="list_activity_distance">
+    <item>5.8 kms from city center</item>
+   <item>11.8 kms from city center</item>
+    <item>10.8 kms from city center</item>
+   <item>15.8 kms from city center</item>
+    <item>5.3 kms from city center</item>
+ <item>_kms from city center</item>
+   <item>25.9 kms from city center</item>
+    <item>3.6 kms from city center</item>
+   <item>8.8 kms from city center</item>
+ </string-array>
+
+<string-array name="list_activity_location">
+    <item>19 Dock Rd, Cape Town, 8001</item>
+   <item>Between Table mountain Signal hill</item>
+    <item>Kloofnek</item>
+   <item>Simonstown</item>
+    <item>7 Dock Rd, Cape Town, 8001</item>
+ <item>Various Wine Estates</item>
+   <item>Camps Bay</item>
+    <item>City of Cape Town</item>
+   <item>8 Stadium Rd, Athlone,8001</item>
+</string-array>
+
+<string-array name="list_activity_details">
+    <item>Upclose with sea life</item>
+   <item>Mountain peak with a spectacular view over Cape Town</item>
+    <item>Prominent mountain in Cape Town</item>
+   <item>A point in the Cape Peninsula where the Atlantic and Indian oceans meet</item>
+    <item>Various sea wildlife can be observed at the aquarium</item>
+ <item>Wine tasting and sales</item>
+   <item>Dog-friendly hotel and spa</item>
+   <item>Resort with views of the Cape Peninsula, a restaurant and indoor pool</item>
+    <item>Cape Malay Meals</item>
+</string-array>
+
+<string-array name="list_activity_description">
+    <item>Up close with sea life</item>
+   <item>Standing at 869 metres above sea level, Table Mountain rises from the ocean</item>
+    <item>Standing at 669 metres above sea level, Lion\'s Head forms part of the dramatic backdrop of Cape Town</item>
+   <item>A promonotory at the southeast corner of the Cape Peninsula, which is a mountainious and scenic landform that runs north-south for about thirty kilometres at the extreme southwestern tip of the African continent in the Republic of South Africa</item>
+    <item>En-route to the Victoria and Alfred Waterfront, stop at the Two Oceans Aquarium, to observe multiple different species of sea life</item>
+ <item>The large Cape winery district offers a wide selection of wines to taste. The wine district stretches from Stellenbosch all the way to the Boland</item>
+   <item>Located along cape\'s scenic Campsbay Drive, and the only pet-friendly hotel in Cape Town. Visitors can be sure that the menu for both human and pet is put together by certified vets and dieticians</item>
+   <item>With a variety of well-appointed guest rooms and suites with private balconies overlooking the Cape Peninsula. Food and drink amenities include a bar and free BBQ facilities. For those that want to relax, a free spa and wellness center is offered, with two outdoor spas, and sauna. An indoor pool is also on site</item>
+    <item>Definitely drop-in at Golden Dish, for delicious Cape Malay dishes, in a variety of flavours, and portions. From fish and chips, to gatsby\'s, to chicken, and much more</item>
+</string-array>
+
+<string-array name="list_activity_image">
+    <item>@drawable/waterfront</item>
+   <item>@drawable/lions_head</item>
+    <item>@drawable/table_mountain</item>
+   <item>@drawable/cape_point</item>
+    <item>@drawable/aquarium</item>
+ <item>@drawable/winery</item>
+   <item>@drawable/twelve_apostles</item>
+   <item>@drawable/one_and_only</item>
+    <item>@drawable/golden_dish</item>
+</string-array>
+    <string-array name="list_food_name">list_food_name</string-array>
+    <string-array name="list_food_distance">list_food_distance</string-array>
+    <string-array name="list_food_details">list_food_details</string-array>
+    <string-array name="list_food_description">list_food_description</string-array>
+    <string-array name="list_food_location">list_food_location</string-array>
+    <string-array name="list_food_image">list_food_image</string-array>
+    <string-array name="list_sights_name">list_sights_name</string-array>
+    <string-array name="list_sights_distance">list_sights_distance</string-array>
+    <string-array name="list_sights_details">list_sights_details</string-array>
+    <string-array name="list_sights_description">list_sights_description</string-array>
+    <string-array name="list_sights_location">list_sights_location</string-array>
+    <string-array name="list_sights_image">list_sights_image</string-array>
+    <string-array name="list_lodging_name">list_lodging_name</string-array>
+    <string-array name="list_lodging_distance">list_lodging_distance</string-array>
+    <string-array name="list_lodging_details">list_lodging_details</string-array>
+    <string-array name="list_lodging_description">list_lodging_description</string-array>
+    <string-array name="list_lodging_location">list_lodging_location</string-array>
+    <string-array name="list_lodging_image">list_lodging_image</string-array>
+    <string-array name="list_entertainment_name">list_entertainment_name</string-array>
+    <string-array name="list_entertainment_distance">list_entertainment_distance</string-array>
+    <string-array name="list_entertainment_details">list_entertainment_details</string-array>
+    <string-array name="list_entertainment_description">list_entertainment_description
+    </string-array>
+    <string-array name="list_entertainment_location">list_entertainment_location</string-array>
+    <string-array name="list_entertainment_image">list_entertainment_image</string-array>
+
+</resources>
